@@ -1,0 +1,117 @@
+<%- include('./includes/head.ejs') %>
+	<link rel="stylesheet" href="/css/room.css">
+</head>
+<body>
+    <%- include('./includes/navigation.ejs') %>
+    
+    <%- include('./includes/mobile.ejs') %>
+<div id = "room-heading">
+    SINGLE ROOM
+</div>
+
+<div id="box">
+        <div class="director-image"></div>
+        <div class="text">
+            <div class="prof-name">#########</div>
+            National Institute of Technology , Silchar
+            <br>
+            Cachar, Assam.
+            <br>
+            <div class="heading">Pin:</div>
+            788 010.
+            <br>
+            <div class="heading">Phone:</div>
+            03842-224879 / 03842-242273
+            <br>
+            <div class="heading">Mob. No.:</div>
+            +91-
+            <br>
+            <div class="heading">Fax:</div>
+            03842-224797
+            <br>
+            <div class="heading">Email ID: </div>
+            <a href="mailto:director@nits.ac.in">##########</a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div id = "room-heading1">
+    SINGLE ROOM
+</div>
+
+<div id="box">
+        <div class="director-image"></div>
+        <div class="text">
+            <div class="prof-name">#########</div>
+            National Institute of Technology , Silchar
+            <br>
+            Cachar, Assam.
+            <br>
+            <div class="heading">Pin:</div>
+            788 010.
+            <br>
+            <div class="heading">Phone:</div>
+            03842-224879 / 03842-242273
+            <br>
+            <div class="heading">Mob. No.:</div>
+            +91-
+            <br>
+            <div class="heading">Fax:</div>
+            03842-224797
+            <br>
+            <div class="heading">Email ID: </div>
+            <a href="mailto:director@nits.ac.in">##########</a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div id = "room-heading2">
+    SINGLE ROOM
+</div>
+
+<div id="box">
+        <div class="director-image"></div>
+        <div class="text">
+            <div class="prof-name">#########</div>
+            National Institute of Technology , Silchar
+            <br>
+            Cachar, Assam.
+            <br>
+            <div class="heading">Pin:</div>
+            788 010.
+            <br>
+            <div class="heading">Phone:</div>
+            03842-224879 / 03842-242273
+            <br>
+            <div class="heading">Mob. No.:</div>
+            +91-
+            <br>
+            <div class="heading">Fax:</div>
+            03842-224797
+            <br>
+            <div class="heading">Email ID: </div>
+            <a href="mailto:director@nits.ac.in">##########</a>
+            <br>
+            <br>
+        </div>
+    </div>
+<%- include('./includes/footer.ejs') %>
+
+<script>
+    const menu = document.querySelector("#menu");
+    const abtItem = document.querySelector("#abt-item");
+    const abtSub = document.querySelector("#abt-sub");
+
+
+    const hamburger = document.querySelector("#hamburger");
+
+    hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+    abtItem.addEventListener("click", () => {
+        abtSub.classList.toggle("hidden");
+    });
+</script>
+<%- include('./includes/end.ejs') %>

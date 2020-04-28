@@ -1,0 +1,98 @@
+<%- include('./includes/head.ejs') %>
+  <link rel="stylesheet"  href="/css/form.css">
+</head>
+<body>
+  <%- include('./includes/navigation.ejs') %>
+  <%- include('./includes/mobile.ejs') %>
+  <!-- form -->
+
+  <div class="container">
+      <div class="container-time">
+        <h2 class="heading">Time Open</h2>
+        <h3 class="heading-days">Monday-Friday</h3>
+        <p>7am-11am(Breakfast)</p>
+        <p>11am-10pm(Lunch/Dinner)</p>
+
+        <h3 class="heading-days">Saturday & Sunday</h3>
+        <p>9am-1pm(Breakfast)</p>
+        <p class="para">1pm-10pm(Lunch/Dinner)</p>
+
+        <hr>
+        
+
+        <h4 class="heading-phone">Call US: +91 7896534678</h4>
+      </div>
+
+      <div class="container-form">
+        <form action="#">
+          <h2 class="heading heading-yellow">Reservation Online</h2>
+
+          <div class="form-field">
+            <p>Name</p>
+            <input type="text" placeholder="Your Name">
+          </div>
+
+          <div class="form-field">
+            <p>Email</p>
+            <input type="email" placeholder="Your Email">
+          </div>
+
+          <div class="form-field">
+            <p>Mobile No</p>
+            <input type="tel" placeholder="Your Mobile Number">
+          </div>
+
+          <div class="form-field">
+            <p>From</p>
+            <input type="date">
+          </div>
+
+          <div class="form-field">
+            <p>Till</p>
+            <input type="date">
+          </div>
+
+          <div class="form-field">
+            <p>Approx. Time of arrival </p>
+            <input type="time" placeholder="arrival time">
+          </div>
+
+          <div class="form-field">
+            <p>How many people?</p>
+            <select name="select" id="#">
+              <option value="1">1 Person</option>
+              <option value="2">2 Person</option>
+              <option value="3">3 Person</option>
+              <option value="4">4 Person</option>
+              <option value="5">5 Person</option>
+              <option value="5+">5+ Person</option>
+            </select>           
+          </div>
+
+
+          <div class="form-field">
+            <p>How many rooms?</p>
+            <select name="select" id="#">
+              <option value="1">1 room</option>
+              <option value="2">2 rooms</option>
+              <option value="3">3 rooms</option>
+              <option value="3+">3+ rooms</option>
+            </select>           
+          </div>
+
+
+            <button class="btn">Submit</button>
+
+
+
+
+        </form>
+
+      </div>
+
+
+
+  </div>
+
+<%- include('./includes/footer.ejs') %>
+<%- include('./includes/end.ejs') %>
